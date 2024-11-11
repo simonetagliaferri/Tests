@@ -1,4 +1,4 @@
-package test;
+package main.test;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage stage) {
         Parent root = null;
         try {
-            root = FXMLLoader.load(getClass().getResource("resources\\main.fxml"));
+            root = FXMLLoader.load(getClass().getResource("/resources/main.fxml"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
