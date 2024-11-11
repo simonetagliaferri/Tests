@@ -11,7 +11,7 @@ public class Main extends Application {
     public void start(Stage stage) {
         Parent root = null;
         try {
-            root = FXMLLoader.load(getClass().getResource("main.fxml"));
+            root = FXMLLoader.load(getClass().getResource("resources\\main.fxml"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
